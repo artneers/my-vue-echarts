@@ -1,0 +1,25 @@
+{
+  "name": "my-vue-echarts",
+  "version": "1.0.0",
+  "description": "a vue2 echarts based on echarts5",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "type": "module",
+  "main": "dist/my-vue2-component-library.cjs.js",
+  "module": "dist/my-vue2-component-library.esm.js",
+  "unpkg": "dist/my-vue2-component-library.umd.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.21.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-vue": "5"
+  }
+}
